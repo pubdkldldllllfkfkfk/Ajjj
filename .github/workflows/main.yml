@@ -10,7 +10,7 @@ jobs:
           java-version: "21"
           distribution: temurin
       - run: |
-          unzip -q Canta-4.1.0-terminal.zip
+          unzip -q Canta-4.1.0-terminal(1).zip
           cd Canta-4.1.0
           chmod +x gradlew
           ./gradlew :androidApp:assembleDebug --no-daemon
